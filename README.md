@@ -2,6 +2,7 @@
 
 Name: Monikarnika Chakraborty
 <br>Course: JavaScript </br>
+
 This repository contains my practical assignments and the final capstone mini project for the JavaScript course.
 
 Repository Structure
