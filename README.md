@@ -7,11 +7,9 @@ This repository contains my practical assignments and the final capstone mini pr
 
 Repository Structure
 
-```
+├──  README.md
 ├── assignments.js
-└── README.md
-```
-
+├── capstone.js
 ## Assignments
 
 | # | Topic | What it does |
@@ -64,4 +62,3 @@ Formatted Report List: ["LAPTOP: $800","MOUSE: $25","MONITOR: $150"]
 
 ## Technologies
 - JavaScript (ES6)
-- HTML
