@@ -1,5 +1,5 @@
 # javascript_internship
-project and assignments on javascript
+assignments on javascript
 
 
 Assignment 1: Variables, Data Types, and Console Operations
