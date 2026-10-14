@@ -23,27 +23,25 @@ Repository Structure
 
 ## Capstone Project: Interactive Product Inventory & Analytics Dashboard
 
-A small program that combines all the core concepts in one place.
+A console-based JavaScript program that combines all the core concepts from the course in one application.
 
 ### Features
-- Asks the user for a new product name and price with `prompt()` and converts the price with `Number()`.
-- Checks the input with `if...else`; a loop with `continue` asks again if the input is missing or invalid.
-- Gives each product a category using a `switch` statement:
+- Asks the user for a new product name and price with `prompt()` and converts the price using `Number()`.
+- Adds the new product to an array of objects with the existing items (Laptop and Mouse).
+- Checks the input with `if...else`. A loop with `continue` handles missing or invalid input, and `break` stops the loop once the input is valid.
+- Assigns a category badge with a `switch` statement:
   - **Budget:** under $50
   - **Standard:** $50 to $499
   - **Premium:** $500 and above
-- Uses a regular function to get the total inventory value and an arrow function (with default parameters) for tax and discount.
-- Uses `forEach()` to print the inventory, `filter()` to find items under $200, and `map()` to build a formatted report.
+- Uses a regular function to calculate the total inventory value, and an arrow function with default parameters to apply tax and discount.
+- Uses `forEach()` to print the inventory, `filter()` to find items under $200, and `map()` to create a formatted report.
 
 ### Concepts Used
-Variables and data types, operators, type conversion, `if...else`, `switch`, loops with `break` and `continue`, functions, arrow functions, scope, arrays, objects, `forEach`, `filter`, `map`.
+Variables, data types, operators, type conversion, conditionals, loops, functions, arrow functions, scope, arrays, objects, `forEach`, `filter`, `map`.
 
 ### How to Run
-1. Download `capstone.html`.
-2. Double-click it to open it in Chrome or Edge.
-3. When the pop-ups appear, enter a product name (e.g. `Monitor`) and a price (e.g. `150`, no `$` sign).
-4. The output shows on the page and in the browser console (press F12).
-
+- **Browser:** open the console (F12), paste the code from `capstone.js`, press Enter, and enter a product name (e.g. `Monitor`) and price (e.g. `150`) in the pop-ups.
+- **Node.js:** run `node capstone.js`. It uses sample answers automatically, because Node has no `prompt()`.
 ### Sample Output
 ```
 --- Initializing Inventory System ---
